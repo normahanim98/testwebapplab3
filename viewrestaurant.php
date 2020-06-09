@@ -1,10 +1,10 @@
 <?php
-    $serverName = “testdbtp043719.database.windows.net”;    -buh server name kita
+    $serverName = “testdbtp043719.database.windows.net”;   
     
     $connectionOptions = array(
-          “Database” => “hat dalam azure”,
+          “Database” => “testdbtp043719”,
           “Uid” => “apuadmin”,
-           “PWD” => “apuadmin12345”);  //apu@123456
+           “PWD” => “apu@123456”);  //apu@123456
     //Establish the connection
     $conn = sqlsrv_connect ($serverName, $connectionOptions);
     If (!$conn)
