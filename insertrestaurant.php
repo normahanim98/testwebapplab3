@@ -13,8 +13,8 @@
      die ("Error connection: ".sqlsrv_errors());
      }
      echo "DB Server: Connected!";
-     $sql = “INSERT INTO restaurant (restaurant_name, restaurant_address, restaurant_phone) VALUES (?,?,?)”;
-     $params = array (“Burger King”,”Bukit Jalil”,”03-21134345”);
+     $sql = "INSERT INTO restaurant (restaurant_name, restaurant_address, restaurant_phone) VALUES (?,?,?)";
+     $params = array ("Burger King","Bukit Jalil","03-21134345");
 
      $stmt = sqlsrv_query( $conn, $sql, $params);
      if($stmt === false){
