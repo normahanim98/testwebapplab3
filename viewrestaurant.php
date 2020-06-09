@@ -1,4 +1,5 @@
 <?php
+
     $serverName = “testdbtp043719.database.windows.net”;   
     
     $connectionOptions = array(
@@ -12,5 +13,5 @@
      die (“Error connection: “.sqlsrv_errors());
      }
      echo “DB Server: Connected!”;
-    
+
 ?>
